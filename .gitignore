@@ -1,0 +1,8 @@
+# Python virtual environment folder
+venv/
+# Data files
+*.csv
+*.xlsx
+*.db
+# API keys and credentials
+credentials.py
