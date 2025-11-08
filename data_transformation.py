@@ -1,7 +1,6 @@
 import pandas as pd
 import json
 import os
-import numpy
 
 # Define the file paths
 raw_data_path = os.path.join('data', 'raw_products.json')
@@ -53,3 +52,4 @@ def transform_data(input_path, output_path):
 if __name__ == "__main__":
 
     transform_data(raw_data_path, transformed_data_path)
+
